@@ -14,7 +14,7 @@ function validateLogin() {
         (username === '2310800220' && password === '2310800220')||
         (username === '2310712415' && password === '2310712415'))
     {
-        window.location.href = 'https://drowned-fish-git.github.io/ZH-team-website/';
+        window.location.href = 'https://zhihang-website.github.io/Home/';
         return false;}
     else {
         document.getElementById('username').value = '';
