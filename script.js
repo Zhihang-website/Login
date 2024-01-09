@@ -15,25 +15,11 @@ function validateLogin() {
     {
         window.location.href = 'https://xunhang-website.github.io/Home/';
         return false;}
-    else {
-        document.getElementById('username').value = '';
-        document.getElementById('password').value = '';
-        document.getElementById('errorMessage').innerText = '账号或密码错误';
-    }
-
-    // 余卓航
-    if (username === '2211121225' && password === '2211121225')
+    else if (username === '2211121225' && password === '2211121225')// 余卓航
     {
         window.location.href = 'https://xunhang-website.github.io/YuZhuohang/';
         return false;}
-    else {
-        document.getElementById('username').value = '';
-        document.getElementById('password').value = '';
-        document.getElementById('errorMessage').innerText = '账号或密码错误';
-    }
-
-    // 林安琪
-    if (username === '2210700212' && password === '2210700212')
+    else if (username === '2210700212' && password === '2210700212')// 林安琪
     {
         window.location.href = 'https://xunhang-website.github.io/LinAnqi/';
         return false;}
