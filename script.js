@@ -2,7 +2,8 @@ function validateLogin() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if ((username === '2211121225' && password === '2211121225')||
+    if ((username === '119' && password === '119')||
+        (username === '2211121225' && password === '2211121225')||
         (username === '2111111315' && password === '2111111315')||
         (username === '2210800119' && password === '2210800119')||
         (username === '2110800121' && password === '2110800121')||
