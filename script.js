@@ -3,7 +3,7 @@ function isMobileDevice() {
   }
 
   if (isMobileDevice()) {
-    window.location.href = 'https://xunhang-website.github.io/Contact/';
+    window.location.href = 'https://xunhang-website.github.io/Limit/';
   }
 
 function validateLogin() {
