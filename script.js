@@ -14,7 +14,7 @@ function validateLogin() {
         (username === '2310800220' && password === '2310800220')||
         (username === '2310712415' && password === '2310712415'))
     {
-        window.location.href = 'https://zhihang-website.github.io/Home/';
+        window.location.href = 'https://xunhang-website.github.io/Home/';
         return false;}
     else {
         document.getElementById('username').value = '';
