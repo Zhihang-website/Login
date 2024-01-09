@@ -10,7 +10,7 @@ function validateLogin() {
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
-    if ((username === '119' && password === '119')
+    if ((username === '119' && password === '119'))
     {
         window.location.href = 'https://xunhang-website.github.io/Home/';
         return false;}
@@ -54,7 +54,7 @@ function validateLogin() {
     {
         window.location.href = 'https://xunhang-website.github.io/CaiYajing/';
         return false;}
-    else if (username === '2310712415' && password === '2310712415'))// 闵佳怡
+    else if (username === '2310712415' && password === '2310712415')// 闵佳怡
     {
         window.location.href = 'https://xunhang-website.github.io/MinJiayi/';
         return false;}    
